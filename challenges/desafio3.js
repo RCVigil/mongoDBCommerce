@@ -1,0 +1,1 @@
+db.produtos.findOne({}, { _id: false, nome: true, vendidos: true });
